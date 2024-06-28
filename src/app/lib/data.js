@@ -18,15 +18,15 @@ export const question = [
   "question",
   "What do you do in a powerful storm with thunder and lightning?",
   "How do you make your entrance to a grand wedding venue?",
-  "What’s your favorite activity at a lively birthday party?",
+  "What&apos;s your favorite activity at a lively birthday party?",
   "What do you do in a vibrant city at night?",
   "Where are you headed in a fast getaway car?",
   "What do you do in a whimsical, pastel house filled with love?",
   "How do you spend time in a cabin deep in the woods?",
-  "What’s your activity on a bench in Coney Island?",
+  "What&apos;s your activity on a bench in Coney Island?",
   "How do you navigate a mysterious labyrinth under the stars?",
   "What do you do in an enchanting garden of tortured poets?"
-];
+];g
 
 export const answers = [
   ["1", "2", "3", "4"],
