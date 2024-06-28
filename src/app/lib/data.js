@@ -26,7 +26,7 @@ export const question = [
   "What&apos;s your activity on a bench in Coney Island?",
   "How do you navigate a mysterious labyrinth under the stars?",
   "What do you do in an enchanting garden of tortured poets?"
-];g
+];
 
 export const answers = [
   ["1", "2", "3", "4"],
