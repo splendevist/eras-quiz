@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import { useState } from "react";
-import { bgImage, question, colour, answers, hover } from "../lib/data.js";
+import { bgImage, question, colour, answers} from "../lib/data.js";
 
 export default function Quiz() {
   const [count, setCount] = useState(0);
@@ -13,16 +13,15 @@ export default function Quiz() {
       setCount(count + 1);
       setSelectedAnswer(null); // Reset the selected answer for the next question
       setActive(false); // Disable the button until a new answer is selected
-      console.log("next question");
     }
   }
 
-  function decreaseCount() {
-    if (count > 0) {
-      setCount(count - 1);
-      console.log("previous question");
-    }
-  }
+  // function decreaseCount() {
+  //   if (count > 0) {
+  //     setCount(count - 1);
+  //     console.log("previous question");
+  //   }
+  // }
 
   const handleAnswerChange = (event) => {
     const answer = event.target.value;
